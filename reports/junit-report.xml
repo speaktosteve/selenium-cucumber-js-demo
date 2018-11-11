@@ -7,9 +7,9 @@
             <property name="URI" value="/Users/stevesmith/Documents/code/playtime/bdd-sample/features/google-search.feature">
             </property>
         </properties>
-        <testcase name="When I search Google for &quot;CourseOf.Life&quot;" classname="searching-for-vote-cards-app;google-search-for-course-of-life-app" time="5.536087428">
+        <testcase name="When I search Google for &quot;CourseOf.Life&quot;" classname="searching-for-vote-cards-app;google-search-for-course-of-life-app" time="6.089170583">
         </testcase>
-        <testcase name="Then I should see some results" classname="searching-for-vote-cards-app;google-search-for-course-of-life-app" time="0.02128322">
+        <testcase name="Then I should see some results" classname="searching-for-vote-cards-app;google-search-for-course-of-life-app" time="0.023573802">
         </testcase>
     </testsuite>
 </testsuites>
