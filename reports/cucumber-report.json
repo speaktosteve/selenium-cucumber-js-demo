@@ -1,5 +1,66 @@
 [
   {
+    "description": "  As an internet user\n  In order to find out more about Avanade\n  I want to be able to view relevant information on Avanade.com",
+    "elements": [
+      {
+        "id": "visiting-avanade.com;visit-avanade.com",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Visit Avanade.com",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I visit \"Avanade.com\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see some content",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1076908953
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/stevesmith/Documents/code/playtime/bdd-sample/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "visiting-avanade.com",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Visiting Avanade.com",
+    "tags": [
+      {
+        "name": "@search",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/stevesmith/Documents/code/playtime/bdd-sample/features/avanade.feature"
+  },
+  {
     "description": "  As an internet user\n  In order to find out more about the itunes vote cards app\n  I want to be able to search for information about the itunes vote cards app",
     "elements": [
       {
@@ -14,7 +75,7 @@
             "name": "I search Google for \"CourseOf.Life\"",
             "result": {
               "status": "passed",
-              "duration": 6089170583
+              "duration": 4493496786
             },
             "line": 8,
             "match": {
@@ -27,7 +88,7 @@
             "name": "I should see some results",
             "result": {
               "status": "passed",
-              "duration": 23573802
+              "duration": 22084334
             },
             "line": 9,
             "match": {
@@ -39,7 +100,60 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 143806717
+              "duration": 138168093
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/stevesmith/Documents/code/playtime/bdd-sample/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "searching-for-vote-cards-app;google-search-for-avanade",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Google search for Avanade",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search Google for \"Avanade\"",
+            "result": {
+              "status": "passed",
+              "duration": 3237432031
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/stevesmith/Documents/code/playtime/bdd-sample/step-definitions/google-search-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see some results",
+            "result": {
+              "status": "passed",
+              "duration": 19937108
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/stevesmith/Documents/code/playtime/bdd-sample/step-definitions/google-search-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 152862907
             },
             "hidden": true,
             "match": {
